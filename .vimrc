@@ -16,3 +16,6 @@ let g:NERDTreeWinSize=44
 
 set number
 colorscheme desert
+set tabstop=4
+set shiftwidth=4
+set expandtab
