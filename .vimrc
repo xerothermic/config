@@ -9,13 +9,14 @@
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'easymotion/vim-easymotion'
+Plug 'vim-scripts/AutoComplPop'
 call plug#end()
 
 map <C-x> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=44
 
 set number
-colorscheme desert
+colorscheme pablo
 set tabstop=4
 set shiftwidth=4
 set expandtab
