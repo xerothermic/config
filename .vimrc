@@ -3,7 +3,7 @@
 "
 " Initialize vim-plug ...
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-" https://raw.githubsercontent.com/junegunn/vim-plug/master/plug.vim
+" https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " Customize Plug ...
 " :PlugInstall
 call plug#begin('~/.vim/plugged')
