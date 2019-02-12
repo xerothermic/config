@@ -15,3 +15,4 @@ map <C-x> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=44
 
 set number
+colorscheme desert
