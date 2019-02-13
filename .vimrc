@@ -31,3 +31,9 @@ colorscheme pablo
 set tabstop=4
 set shiftwidth=4
 set expandtab
+" Ref: https://superuser.com/questions/549930/cant-resize-vim-splits-inside-tmux
+set mouse=a
+if &term =~ '^screen'
+    " tmux knows the extended mouse mode
+    set ttymouse=xterm2
+endif
