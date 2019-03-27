@@ -15,6 +15,7 @@ Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'garbas/vim-snipmate'
 Plug 'honza/vim-snippets'
+Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Customize plugin related settings
